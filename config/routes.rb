@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   resources :blocks
   root 'landing#index'
   get 'test' => 'landing#test'
+  get '/auth/:provider/callback', to: 'sessions#create'
+  delete '/logout', to: 'sessions#destroy'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
