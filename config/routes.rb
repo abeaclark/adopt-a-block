@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :businesses
   resources :blocks
   root 'landing#index'
+  get 'test' => 'landing#test'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

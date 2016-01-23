@@ -12,6 +12,7 @@ gem 'bootstrap-sass'
 gem 'sass-rails'
 gem 'fusion_tables'
 gem 'dotenv-rails'
+gem "omniauth-google-oauth2"
 
 
 

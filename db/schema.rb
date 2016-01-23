@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20160123192352) do
   enable_extension "plpgsql"
 
   create_table "blocks", force: :cascade do |t|
-    t.integer  "block_num"
+    t.string   "block_num"
     t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
