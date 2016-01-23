@@ -10,7 +10,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'faker'
 gem 'bootstrap-sass'
 gem 'sass-rails'
-gem 'fusion-tables'
+gem 'fusion_tables'
+gem 'dotenv-rails'
 
 
 
