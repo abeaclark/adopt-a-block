@@ -3,7 +3,7 @@ class CreateBusinesses < ActiveRecord::Migration
     create_table :businesses do |t|
       t.string :name
       t.string :website
-      t.integer :leader_id
+      t.integer :user_id
 
       t.timestamps null: false
     end

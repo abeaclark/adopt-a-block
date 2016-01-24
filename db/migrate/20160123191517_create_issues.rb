@@ -5,6 +5,7 @@ class CreateIssues < ActiveRecord::Migration
       t.string :title
       t.string :body
       t.string :status
+      t.integer :block_id
 
       t.timestamps null: false
     end

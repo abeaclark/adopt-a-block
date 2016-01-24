@@ -10,6 +10,14 @@ class BlocksController < ApplicationController
   # GET /blocks/1
   # GET /blocks/1.json
   def show
+    @block = Block.find(params[:id])
+    p @issues = @block.issues
+    p @businesses = @block.businesses
+    p @users = @block.users
+    p @events = @block.events
+
+
+
   end
 
   # GET /blocks/new

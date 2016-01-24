@@ -68,6 +68,17 @@
   margin: 5px;
 }
 
-.inline-block {
+
+.avatar {
+  width: 100px;
+  border-radius: 100%
+}
+
+.thumbnail {
   display: inline-block;
 }
+
+.margin_bottom {
+  margin-bottom: 40px;
+}
+

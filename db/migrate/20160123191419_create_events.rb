@@ -5,6 +5,7 @@ class CreateEvents < ActiveRecord::Migration
       t.string :body
       t.datetime :start
       t.datetime :end
+      t.integer :block_id
 
       t.timestamps null: false
     end
