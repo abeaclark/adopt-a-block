@@ -13,6 +13,8 @@ gem 'sass-rails'
 gem 'fusion_tables'
 gem 'dotenv-rails'
 gem "omniauth-google-oauth2"
+gem 'google-api-client'
+gem 'httparty'
 
 
 
