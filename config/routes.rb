@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   resources :events
   resources :businesses
   resources :blocks
-  root 'landing#index'
-  get 'test' => 'landing#test'
+  root 'landings#index'
+  get 'map' => 'landings#map'
   get '/auth/:provider/callback', to: 'sessions#create'
   delete '/logout', to: 'sessions#destroy'
 
