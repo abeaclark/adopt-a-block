@@ -44,7 +44,6 @@
 
 .background {
   height: 90vh;
-
 }
 
 #landing_background {
@@ -74,11 +73,8 @@
   border-radius: 100%
 }
 
-.thumbnail {
-  display: inline-block;
+.col-sm-6 {
+  float: left;
 }
 
-.margin_bottom {
-  margin-bottom: 40px;
-}
 
