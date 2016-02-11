@@ -1,8 +1,8 @@
-Current status: ON HOLD, need to re-architect the block-overlay for google maps.
-
 # Adopt a Block - San Francisco
 
 ### Teams of businesses and citizens making the city a better place to live
+
+Current status: ON HOLD, need to re-architect the block-overlay for google maps.
 
 This web app applies the "Adopt a Highway" program to city blocks. Citizens and businesses can join teams to sponsor a block. The business sponser and team leaders then become the primary advocates for progress in that sphere. The platform provides a place to notate issues, propose reponses, and organize events. 
 
