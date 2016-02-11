@@ -1,28 +1,16 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Current status: ON HOLD, need to re-architect the block-overlay for google maps.
 
-Things you may want to cover:
+#Adopt a Block - San Francisco
 
-* Ruby version
+###Teams of businesses and citizens making the city a better place to live
 
-* System dependencies
+This web app applies the "Adopt a Highway" program to city blocks. Citizens and businesses can join teams to sponsor a block. The business sponser and team leaders then become the primary advocates for progress in that sphere. The platform provides a place to notate issues, propose reponses, and organize events. 
 
-* Configuration
+Future features include the ability to raise money, to interface with Eventbright or another events platform, and to gain the endorsement of the SF city council.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Adopt a Block was built for Dev Bootcamp's January, 2016 Hackathon
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
