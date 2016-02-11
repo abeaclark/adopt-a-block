@@ -1,5 +1,3 @@
-== README
-
 Current status: ON HOLD, need to re-architect the block-overlay for google maps.
 
 # Adopt a Block - San Francisco
